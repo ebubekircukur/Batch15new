@@ -1,0 +1,11 @@
+NewCar print = new NewCar();
+print.startCar('Insight', 'Honda');
+print.Accelerate(80);
+print.checkSpeed();
+print.Brake(55);
+print.checkSpeed();
+print.Accelerate(10);
+print.checkSpeed();
+print.Brake(40  );
+print.checkSpeed();
+print.stopCar();

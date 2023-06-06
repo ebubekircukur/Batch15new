@@ -1,0 +1,25 @@
+DummyDataCreation.highestOpp();
+DummyDataCreation.createrecords(5, '0013x00002RfjFyAAJ');
+DummyDataCreation.accwithNoCon();
+DummyDataCreation.createaccount(5);
+ list<account> listAcc1 = new list<account>();
+ account ac = new account();
+ ac.name = 'Point2';
+ listAcc1.add(ac);
+ account ac1 = new account();
+ ac1.name = 'Point2';
+ listAcc1.add(ac1);
+ insert listAcc1;
+DummyDataCreation.createcontact(5,listAcc1);
+
+list<contact> listcont = new list<contact>();
+contact c1 = new contact();
+c1.firstname = 'Efe';
+c1.lastname = 'Efe';
+listcont.add(c1);
+contact c2 = new contact();
+c2.firstname = 'Kerim';
+c2.lastname = 'Kerim';
+listcont.add(c2);
+insert listcont;
+DummyDataCreation.createcase(listcont);

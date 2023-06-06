@@ -1,0 +1,12 @@
+Employee print = new Employee();
+print.setName('Walter White');
+print.setSalary(20000);
+string newempname = print.getName();
+decimal newempsalary = print.getSalary();
+system.debug(newempname+' salary is '+newempsalary);
+Employee print1 = new Employee();
+print1.setName('Jesse Pink');
+print1.setSalary(60000);
+string newempname1 = print1.getName();
+decimal newempsalary1 = print1.getSalary();
+system.debug(newempname1+' salary is '+newempsalary1);

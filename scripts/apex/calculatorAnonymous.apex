@@ -1,0 +1,10 @@
+Calculator calc = new Calculator();
+//calc.add(5, 10);
+//system.debug(calc.add(5, 10));
+//integer r1 = calc.add(5, 10);
+//system.debug(r1);
+//integer x = calc.add(10, 15, 55);
+//system.debug('x is '+x);
+date dt = date.today();
+boolean r1 = calc.leapYearCheck(dt);
+system.debug(' Is this year a leap year ? '+r1);
